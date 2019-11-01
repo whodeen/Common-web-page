@@ -1,0 +1,12 @@
+.button_primary {
+    background-image: linear-gradient(to right top,#fb6a4e, #ff606a);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    width: 243px;
+    height: 60px;
+}
