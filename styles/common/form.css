@@ -1,0 +1,62 @@
+header .request-form {
+    color: black;
+}
+
+footer .request-form {
+    color: white;
+}
+
+.request-form fieldset{
+    border: none;
+    text-align: center;
+    width: 333px;
+}
+
+.request-form legend {
+    font-size: 30px;
+}
+
+.request-form input {
+    border: none;
+    border-bottom: 2px solid #76dfce;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', sans-serif;
+    line-height: 22px;
+    padding: 6px 0;
+    margin: 0;
+    width: 100%;
+}
+
+.request-form input:focus {
+    outline: none;
+}
+
+.request-form p {
+    text-align: left;
+    position: relative;
+    padding-top: 33px;
+    padding-bottom: 23px;
+}
+
+.request-form p:nth-last-child(2) {
+    margin-bottom: 27px;
+}
+
+.request-form label {
+    color: transparent;
+    font-size: 16px;
+    position: absolute;
+    top: 38px; 
+    text-transform: uppercase;
+    transition: all;
+    transition-duration: 200ms;
+    z-index: 1;
+}
+
+.request-form input:active + label,
+.request-form input:focus + label,
+.request-form input:hover + label {
+    color: #1db8a4;
+    font-size: 14px;
+    top: 5px;
+}
