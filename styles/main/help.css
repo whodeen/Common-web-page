@@ -1,0 +1,21 @@
+.help {
+    background-color: #1ea992;
+    color: white;
+    background-image: url('../../img/2.png');
+    background-repeat: no-repeat;
+    min-height: 888px;
+    margin-top: 150px;
+    border: 1px solid transparent;
+    background-position: calc(50% - 480px) calc(50% + 35px);
+}
+
+.help .container {
+}
+
+.help h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 35px;
+}

@@ -1,0 +1,49 @@
+.help-list {
+    width: 600px;
+    list-style: none;
+    counter-reset: item;
+    margin-top: 80px;
+    margin-left: 570px;
+}
+
+.help-list li {
+    counter-increment: item;
+    padding-left: 75px;
+    position: relative;
+    font-size: 16px;
+    line-height: 26px;
+    line-break: loose;
+    width: 430px;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.help-list li:first-child {
+    margin-top: 0;
+}
+
+.help-list li::before {
+    display: block;
+    position: absolute;
+    content: counter(item) '.';
+    font-size: 60px;
+    line-height: 26px;
+    left: 0px;
+    top: 15px;
+}
+
+.help-list li:nth-child(even){
+    width: 370px;
+    margin-left: 116px;
+}
+
+.help-list li:nth-child(even)::before {
+    left: -17px;
+}
+
+.help-font_heading {
+    font-weight: bold;
+}
+.help-font_name {
+    text-transform: initial;
+}

@@ -29,9 +29,9 @@
 
 .requirements-list li::before {
     background-repeat: no-repeat;
-    background-position: 45% 0%;
+    background-position: 45% 20%;
     content: '';
-    height: 160px;
+    height: 150px;
 }
 
 .requirements-list li:nth-child(1)::before {
