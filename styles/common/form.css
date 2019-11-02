@@ -10,11 +10,27 @@ footer .request-form {
     border: none;
     text-align: center;
     width: 333px;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
 }
 
 .request-form legend {
     font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: -5px;
+    padding: 0;
 }
+
+.request-form p {
+    text-align: left;
+    position: relative;
+    padding-top: 30px;
+    margin-top: 26px;
+}
+
 
 .request-form input {
     border: none;
@@ -22,34 +38,23 @@ footer .request-form {
     font-size: 16px;
     font-family: 'Comic Sans MS', sans-serif;
     line-height: 22px;
-    padding: 6px 0;
+    padding:0;
     margin: 0;
     width: 100%;
+    height: 36px;
 }
 
 .request-form input:focus {
     outline: none;
 }
 
-.request-form p {
-    text-align: left;
-    position: relative;
-    padding-top: 33px;
-    padding-bottom: 23px;
-}
-
-.request-form p:nth-last-child(2) {
-    margin-bottom: 27px;
-}
-
 .request-form label {
-    color: transparent;
+    color: #b1b3b3;
     font-size: 16px;
     position: absolute;
     top: 38px; 
-    text-transform: uppercase;
     transition: all;
-    transition-duration: 200ms;
+    transition-duration: 300ms;
     z-index: 1;
 }
 
@@ -59,4 +64,24 @@ footer .request-form {
     color: #1db8a4;
     font-size: 14px;
     top: 5px;
+    text-transform: uppercase;
+}
+
+.request-form input::placeholder {
+    color: #b1b3b3;
+    transition: color;
+    transition-duration: 50ms;
+}
+
+.request-form input:focus::placeholder,
+.request-form input:hover::placeholder {
+    color: transparent;
+}
+
+.request-form input:not(placeholder-shown) + label{
+    color: transparent;
+}
+
+.request-form button {
+    margin-top: 50px;
 }
