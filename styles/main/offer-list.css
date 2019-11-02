@@ -1,0 +1,80 @@
+.offers-list {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 320px 320px 320px;
+    margin: 0 auto;
+    gap: 130px;
+    row-gap: 60px;
+    justify-content: center;
+}
+
+.offers-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+}
+
+.offers-list li span {
+    content: '';
+    width: 205px;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-image: url('../../img/offers/1.png');
+    
+    transition: all;
+    transition-duration: 200ms;
+}
+
+.offers-list li:nth-child(1) span {
+    background-image: url('../../img/offers/1.png');
+}
+
+.offers-list li:nth-child(2) span {
+    background-image: url('../../img/offers/2.png');
+}
+
+.offers-list li:nth-child(3) span {
+    background-image: url('../../img/offers/3.png');
+}
+
+.offers-list li:nth-child(4) span {
+    background-image: url('../../img/offers/4.png');
+}
+
+.offers-list li:nth-child(5) span {
+    background-image: url('../../img/offers/5.png');
+}
+
+.offers-list li:nth-child(6) span {
+    background-image: url('../../img/offers/6.png');
+}
+
+.offers-list li:nth-child(1):hover span {
+    background-image: url('../../img/offers/hover2.png');
+}
+
+.offers-list li:nth-child(2):hover span {
+    background-image: url('../../img/offers/hover1.png');
+}
+
+.offers-list li:nth-child(3):hover span {
+    background-image: url('../../img/offers/hover3.png');
+}
+
+.offers-list li:nth-child(4):hover span {
+    background-image: url('../../img/offers/hover4.png');
+}
+
+.offers-list li:nth-child(5):hover span {
+    background-image: url('../../img/offers/hover5.png');
+}
+
+.offers-list li:nth-child(6):hover span {
+    background-image: url('../../img/offers/hover6.png');
+}
+
