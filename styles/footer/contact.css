@@ -1,0 +1,53 @@
+.buttons_social {
+    margin-top: 80px;
+}
+
+.contact {
+    padding-top: 160px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-info {
+    color: white;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    width: 340px;
+    margin-left: 110px;
+}
+
+.contact-info h3 {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.contact-info-email {
+    text-transform: initial;
+    letter-spacing: 1px;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 200px;
+    justify-content: center;
+    gap: 230px;
+    width: 600px;
+    margin: 120px auto;
+
+}
+
+.flex-container .request-form legend{
+    font-size: 20px;
+}
+
+.flex-container .request-form p:first-of-type {
+    margin-top: 10px;
+}

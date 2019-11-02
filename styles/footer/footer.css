@@ -1,0 +1,14 @@
+footer{
+    background-image: url('../../img/bg_png/3.png');
+    padding: 1px;
+}
+
+footer .signature {
+    display: block;
+    color: white;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}

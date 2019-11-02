@@ -33,6 +33,7 @@ footer .request-form {
 
 
 .request-form input {
+    background-color: transparent;
     border: none;
     border-bottom: 2px solid #76dfce;
     font-size: 16px;

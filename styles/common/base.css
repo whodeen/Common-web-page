@@ -1,0 +1,22 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 1168px;
+    margin: 0 auto;
+}
+
+.visualy_hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
