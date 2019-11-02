@@ -1,0 +1,48 @@
+.page-header {
+    border: 1px solid transparent;
+    background-image: url(../../img/bg_png/bg_header.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    min-height: 1030px;
+}
+
+.header-navigation {
+    font-size: 18px;
+}
+
+.header-navigation ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.header-navigation ul a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: border;
+    transition-duration: 100ms;
+}
+
+.header-navigation ul a:focus,
+.header-navigation ul a:hover {
+    outline: none;
+    border-bottom: 2px solid white;
+}
+
+
+.header-navigation ul li {
+    display: inline-block;
+    margin-right: 32px;
+    word-spacing: 1px;
+}
+
+
+.header-navigation ul li:last-child {
+    margin-right: 5px;
+}
+
+.page-header .request-form {
+    margin-top: 289px;
+}
