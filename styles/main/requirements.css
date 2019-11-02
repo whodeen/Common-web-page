@@ -1,0 +1,13 @@
+.requirements {
+    margin-top: 45px;
+}
+
+.requirements h2 {
+    font-size: 30px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    word-spacing: -5px;
+    letter-spacing: 0.65px;
+}

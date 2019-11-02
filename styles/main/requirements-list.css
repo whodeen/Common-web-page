@@ -1,0 +1,67 @@
+.requirements-list {
+    display: grid;
+    grid-template-rows: 280px 280px;
+    grid-template-columns: 286px 286px 286px 286px;
+    gap: 16px;
+    row-gap: 95px;
+    margin: 0 auto;
+    margin-top: 102px;
+    padding: 0;
+}
+
+.requirements-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 14px;
+    border-radius: 10px;
+    line-height: 1.692;
+    padding: 17px;
+    word-spacing: -1px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.07),
+    -4.243px 4.243px 23.76px 0.24px rgba(0, 0, 0, 0.15);
+}
+
+/*RLY?!*/
+.requirements-list li:last-child {
+    font-size: 13px;
+}
+
+.requirements-list li::before {
+    background-repeat: no-repeat;
+    background-position: 45% 0%;
+    content: '';
+    height: 160px;
+}
+
+.requirements-list li:nth-child(1)::before {
+    background-image: url('../../img/requirments/1.png');
+}
+
+.requirements-list li:nth-child(2)::before {
+    background-image: url('../../img/requirments/2.png');
+}
+
+.requirements-list li:nth-child(3)::before {
+    background-image: url('../../img/requirments/3.png');
+}
+
+.requirements-list li:nth-child(4)::before {
+    background-image: url('../../img/requirments/4.png');
+}
+
+.requirements-list li:nth-child(5)::before {
+    background-image: url('../../img/requirments/5.png');
+}
+
+.requirements-list li:nth-child(6)::before {
+    background-image: url('../../img/requirments/6.png');
+}
+
+.requirements-list li:nth-child(7)::before {
+    background-image: url('../../img/requirments/7.png');
+}
+
+.requirements-list li:nth-child(8)::before {
+    background-image: url('../../img/requirments/8.png');
+}
