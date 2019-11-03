@@ -30,7 +30,7 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#requirements">Our requirement</a></li>
                     <li><a href="#help">Help</a></li>
-                    <li><a href="#offer">We offer</a></li>
+                    <li><a href="#offers">We offer</a></li>
                     <li><a href="#contact">Contacts</a></li>
                 </ul>
             </nav>
@@ -83,7 +83,7 @@
             <div class="container">
                 <h2>Help</h2>
                 <ol class="help-list">
-                    <li><span class="help-font_heading">NAME FONTS:</span><br> 
+                    <li><span class="help-font_heading">NAME FONTS:</span><br>
                         <span class="help-font_name">Cosmic Sans MS</span><br>
                         TEXT COLOR #272f2f<br> COLOR BUTTONS
                         (GRADIENT) from #fb6a4e to #ff606a</li>
@@ -156,13 +156,15 @@
                     </section>
                 </div>
         </section>
-        <section class="map">
             <h2 class="visualy_hidden">Find us</h2>
-            <!--MAP HERE-->
-        </section>
-        <span class="signature">
-            Created by Alexander Fedoniuk
-        </span>
+            <div id="map"></div>
+            <script src="scripts/map.js"></script>
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCS6qYWc61BwC0DVgFywmqDzO2fHUmZn7E&callback=initMap"
+                async defer></script>
+            <span class="signature">
+                Created by Alexander Fedoniuk
+            </span>
     </footer>
 </body>
 
