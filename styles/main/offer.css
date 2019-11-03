@@ -1,8 +1,12 @@
 .offers {
     margin-bottom: 45px;
+    padding: 1px
 }
 
 .offers h2 {
+    text-align: center;
     text-transform: uppercase;
     font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 120px
 }
